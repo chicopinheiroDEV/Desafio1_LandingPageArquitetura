@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+
+#header {
+    color: white;
+    background-color: #303030;
+    background-size: 100%;
+    padding-top: 150px;
+    padding-left: 70px;
+    padding-bottom: 120px;
+}
+
+#titleHeader {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+#textHeader {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#textInformation {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icons {
+   margin: 70px 0px 70px 150px;
+    text-align: center;
+}
+
+#content {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#titleContent {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 230px;
+    margin-left: 200px;
+}
+
+#textContent {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+#image {
+    margin-left: 100px;
+}
+
+#form {
+    background-color: #303030;
+    text-align: center;
+}
+
+#titleForm {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 450px;
+    height: 60px;
+    border-radius: 15px;
+    background: #FFF;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.425);
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 10px;
+    border: none;
+}
+
+button {
+    width: 286px;
+    height: 50px;
+    border-radius: 10px;
+    background: #C07212;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 50px;
+    transition: background-color 0.3s ease;
+}
+
+  button:hover {
+    background-color: #0451a3;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
